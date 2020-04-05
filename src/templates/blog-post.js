@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql } from "gatsby"
 import Layout from '../components/layout'
 import Header from '../components/header'
-import Footer from '../components/blogfooter'
+import ShortBio from '../components/shortbio'
 import SEO from "../components/seo"
 
 export default ({data}) => {
@@ -14,7 +14,7 @@ export default ({data}) => {
       <Header />
       <h1>{post.frontmatter.title} - {post.frontmatter.date}</h1>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
-      <Footer/>
+      <ShortBio isBlogPost={true}/>
     </Layout>
   )
 }
