@@ -14,7 +14,6 @@ export default ({ data }) => {
   return(
     <Layout>
       <Header/>
-      <ShortBio isBlogPost={false}/>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
           <Link to={node.fields.slug} style={{ boxShadow: 'none', textDecoration: 'none' }}>
@@ -25,6 +24,7 @@ export default ({ data }) => {
             <p>{node.frontmatter.description}</p>
         </div>
       ))}
+      <ShortBio isBlogPost={false}/>
     </Layout>   
   )
 }
