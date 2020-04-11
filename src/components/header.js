@@ -24,6 +24,7 @@ export default (props) => {
       <div className={Styles.nav}>
         <Link to="/">Home</Link>
         <Link to="/blog">Blog</Link>
+        <Link to="/random">Random</Link>
       </div>
     </React.Fragment>
   )

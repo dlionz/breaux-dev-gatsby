@@ -8,7 +8,7 @@ export default ({ data }) => {
   
   return (
     <Layout>
-      <Seo title={data.site.siteMetadata.author.name}/>
+      <Seo title='Welcome!'/>
       <Header/>
       <Info />
     </Layout>

@@ -13,7 +13,8 @@ module.exports = {
       twitter: 'https://twitter.com/DamienBreaux',
       github: 'https://github.com/dlionz',
       email: 'mailto:damien@breaux.dev'
-    }
+    },
+    reading: ['The Wheel of Time series: The Shadow Rising (4/14)', 'Berserk']
   },
   plugins: [
     {

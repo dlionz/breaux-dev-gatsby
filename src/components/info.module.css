@@ -1,7 +1,7 @@
 .info{
   font-family: 'Raleway', sans-serif;
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
 }
 
 .infoP{
