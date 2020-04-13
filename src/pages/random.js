@@ -1,6 +1,5 @@
 import React from 'react'
 import Layout from '../components/layout'
-import Header from '../components/header'
 import SEO from '../components/seo'
 import ShortBio from '../components/shortbio'
 import { graphql } from 'gatsby'
@@ -10,7 +9,6 @@ export default ({ data }) => {
   return(
     <Layout >
       <SEO title='Random info about me'/>
-      <Header />
       <div style={{marginTop: '2em'}}>
         <h3>Currently Reading</h3>
           <ul>

@@ -2,7 +2,6 @@ import React from 'react'
 import { Link, graphql } from "gatsby"
 import { rhythm } from '../utils/typography'
 import Layout from '../components/layout'
-import Header from '../components/header'
 import ShortBio from '../components/shortbio'
 import SEO from '../components/seo'
 
@@ -15,7 +14,6 @@ export default ({ data }) => {
   return(
     <Layout>
       <SEO title='Blog'/>
-      <Header/>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
           <Link to={node.fields.slug} style={{ boxShadow: 'none', textDecoration: 'none' }}>
