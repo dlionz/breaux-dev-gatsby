@@ -5,6 +5,7 @@ import ShortBio from '../components/shortbio'
 import SEO from "../components/seo"
 
 export default ({data}) => {
+  // test
   const post = data.markdownRemark
 
   return (
