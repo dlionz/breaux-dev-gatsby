@@ -1,5 +1,6 @@
 import Typography from 'typography'
 import sutroTheme from 'typography-theme-sutro'
+import CodePlugin from 'typography-plugin-code'
 
 sutroTheme.overrideThemeStyles = () => {
   return {
@@ -8,6 +9,10 @@ sutroTheme.overrideThemeStyles = () => {
     },
   }
 }
+
+sutroTheme.plugins = [
+  new CodePlugin(),
+]
 
 const typography = new Typography(sutroTheme)
 

@@ -7,11 +7,10 @@ import SEO from "../components/seo"
 export default ({data}) => {
   // test
   const post = data.markdownRemark
-
   return (
     <Layout>
       <SEO title={post.frontmatter.title} description={post.excerpt}/>
-      <h1>{post.frontmatter.title} - {post.frontmatter.date}</h1>
+      <h1>{post.frontmatter.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
       <ShortBio isBlogPost={true}/>
     </Layout>

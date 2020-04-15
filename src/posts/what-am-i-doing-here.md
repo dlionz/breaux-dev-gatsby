@@ -5,13 +5,13 @@ tags: #beginners, #career, #opensource, #meetup
 cover_image: https://thepracticaldev.s3.amazonaws.com/i/micesgrw1swjjqaivdqw.jpeg
 date: "2019-04-19"
 ---
-#To Start
+## To Start
 
 Recently I moved to San Francisco. My wonderfully talented girlfriend got a job at Apple and since my company was flexible enough to allow me to work remotely, we picked up and flew off to beautiful San Francisco from Houston. Being a developer, this was not only an exciting step for our relationship in moving and experiencing a brand new city together, it was an exciting step for me  personally, as my career was sure to benefit just be virtue of being in the presence of the tech environment within the Bay Area.
 
 Now on to my story!
 
-#Sustaining Open Source Meetup
+## Sustaining Open Source Meetup
 
 Earlier this week my boss messaged me a link and said "hey you should try and go to this meetup." I checked out the link and it was to a meetup at GitHub to discuss how companies can help sustain open-source software.
 
@@ -19,7 +19,7 @@ Earlier this week my boss messaged me a link and said "hey you should try and go
 
 When I opened it up I thought "WOW my first meetup and its going to be at GitHub!? sign me up!!!". I've only contributed once to open source so far in my one year and seven months of being a developer. The main reason being that I doubt my own skills as a developer when compared to the other folks I imagined attending, and to be honest that was just plain intimidating. The one contribution I did make was a documentation correction for this [repo](https://github.com/sb2nov/mac-setup). Nevertheless I was excited to get out of the house and start plugging myself into the tech community here.
 
-#I will never be good enough
+## I will never be good enough
 
 The day of the meetup I show up to GitHub headquarters a half hour early. I'm an anxious person and I've made a career out of being painfully early to all professional events and functions. 
 
