@@ -19,6 +19,15 @@ export default ({ data }) => {
             })
           }
           </ul>
+        <h3>Currently Watching</h3>
+          <ul>
+          {data.site.siteMetadata.watching.map((item, index) => {
+              return( 
+                <li key={index}>{item}</li> 
+              )
+            })
+          }
+          </ul>
       </div>
       <div>
         <p>more to come...</p>
@@ -35,6 +44,7 @@ export const query = graphql`
     site {
       siteMetadata {
         reading
+        watching
       }
     }
   }

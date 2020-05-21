@@ -10,7 +10,8 @@ export default ({data}) => {
   return (
     <Layout>
       <SEO title={post.frontmatter.title} description={post.excerpt}/>
-      <h1>{post.frontmatter.title}</h1>
+  <h2>{post.frontmatter.title} - <span style={{color: `#bbb`, fontSize: '.7em'}}> {post.frontmatter.date}</span></h2>
+      <hr />
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
       <ShortBio isBlogPost={true}/>
     </Layout>

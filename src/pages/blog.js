@@ -6,7 +6,7 @@ import ShortBio from '../components/shortbio'
 import SEO from '../components/seo'
 
 const postStyle = {
-  marginBottom: rhythm(1/4)
+  marginBottom: rhythm(1/5)
 }
 
 export default ({ data }) => {
@@ -17,9 +17,7 @@ export default ({ data }) => {
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
           <Link to={node.fields.slug} style={{ boxShadow: 'none', textDecoration: 'none' }}>
-            <h3 style={postStyle}>{node.frontmatter.title}{" "}
-              <span style={{color: `#bbb`}}> - {node.frontmatter.date}</span>
-            </h3>
+            <h4 style={postStyle}>{node.frontmatter.title}</h4>
           </Link>
             <p>{node.frontmatter.description}</p>
         </div>

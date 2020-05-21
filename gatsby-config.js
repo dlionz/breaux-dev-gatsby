@@ -14,7 +14,8 @@ module.exports = {
       github: 'https://github.com/dlionz',
       email: 'mailto:damien@breaux.dev'
     },
-    reading: ['The Wheel of Time series: The Shadow Rising (4/14)', 'Berserk']
+    reading: ['The Wheel of Time series: The Shadow Rising (4/14)', 'Berserk (Finished/Caught up)'],
+    watching: ['She-Ra and the Princesses of Power', 'Avatar: The Last Airbender', 'Naruto: Shippuden', 'Cowboy BeBop', 'Top Chef Masters (2020)']
   },
   plugins: [
     {
