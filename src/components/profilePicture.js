@@ -7,7 +7,7 @@ export default ({ data, props }) => {
   return(
     <React.Fragment>
     <div style={{marginRight: '10px'}}>
-      <img src={damien} className={Styles.image} alt=""/>
+      <img src={`${damien}?nf_resize=fit`} className={Styles.image} alt=""/>
     </div>
   </React.Fragment>
   ) 
