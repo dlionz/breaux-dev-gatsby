@@ -18,11 +18,31 @@ module.exports = {
     watching: ['She-Ra and the Princesses of Power', 'Avatar: The Last Airbender', 'Naruto: Shippuden', 'Cowboy BeBop', 'Top Chef Masters (2020)']
   },
   plugins: [
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 800,
+            },
+          },
+        ],
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'src',
         path: `${__dirname}/src/`
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/static/`
       },
     },
     {
