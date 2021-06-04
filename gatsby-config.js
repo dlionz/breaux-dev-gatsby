@@ -5,17 +5,17 @@ module.exports = {
       name: 'Damien Breaux',
       summary: 'I pretend to write code, blogs, and watch too much YouTube'
     },
-    description: 'This is my(Damien Breaux) personal spot on the interwebs',
+    description: 'This is my (Damien Breaux) personal spot on the interwebs',
     //siteUrl: 'www.google.com',
     social: {
-      linkedIn: 'https://www.linkedin.com/in/damien-breaux-67ab30a8/',
+      linkedIn: 'https://www.linkedin.com/in/damienbreaux/',
       devTo: 'https://dev.to/dlionz',
       twitter: 'https://twitter.com/DamienBreaux',
       github: 'https://github.com/dlionz',
       email: 'mailto:damien@breaux.dev'
     },
-    reading: ['The Wheel of Time series: The Shadow Rising (4/14)', 'Berserk (Finished/Caught up)'],
-    watching: ['She-Ra and the Princesses of Power', 'Avatar: The Last Airbender', 'Naruto: Shippuden', 'Cowboy BeBop', 'Top Chef Masters (2020)']
+    reading: ['The Wheel of Time series: The Shadow Rising (4 of 14)', 'Berserk (Finished/Caught up)', 'One Piece (chpater 600 of 1000)', 'Naruto (Finished)', 'Jujutsu Kaisen (Caught up)', 'My Hero Academia (Caught up)'],
+    watching: ['She-Ra and the Princesses of Power', 'Avatar: The Last Airbender (Finished)', 'Naruto: Shippuden (Finished)', 'Cowboy BeBop', 'Top Chef Masters (2021)']
   },
   plugins: [
     `gatsby-plugin-sharp`,

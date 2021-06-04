@@ -28,9 +28,10 @@ export default ({ data }) => {
             })
           }
           </ul>
-      </div>
-      <div>
-        <p>more to come...</p>
+          <h3>Currently Learning</h3>
+          <ul>
+            <li>Drawing - Digital Art - Digital Painting</li>
+          </ul>
       </div>
       <ShortBio />
     </Layout>

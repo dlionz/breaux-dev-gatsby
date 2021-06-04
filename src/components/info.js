@@ -29,9 +29,9 @@ export default (props) => {
       <ProfilePic />
       <div className={Styles.infoP}>
         <p id={Styles.hand}>
-          I'm a C# .Net developer interested in Javascript and focused on always improving. <br/>
+          I'm a .Net Core developer interested in Javascript and focused on always improving. <br/>
           I'm a professional on <a target="_blank" rel="noopener noreferrer" href={social.linkedIn}>Linkedin</a> <br/>
-          I write about my life and experiences on <a target="_blank" rel="noopener noreferrer" href={social.devTo}>Dev.to</a> <br/>
+          I have written posts on <a target="_blank" rel="noopener noreferrer" href={social.devTo}>Dev.to</a> <br/>
           I try and tweet on <a target="_blank" rel="noopener noreferrer" href={social.twitter}>Twitter</a> <br/>
           and somtimes I put code on <a target="_blank" rel="noopener noreferrer" href={social.github}>Github</a> <br/>
           Send me an <a href={social.email}>electronic letter</a>
